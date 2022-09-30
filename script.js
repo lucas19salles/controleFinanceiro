@@ -18,5 +18,8 @@ do {
     case "3":
       alert(`Encerrando`);
       break;
+
+    default:
+      alert("Opção Inválida");
   }
 } while (opcao !== "3");
